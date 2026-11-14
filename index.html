@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vipul's Portfolio | Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PREMIUM INTRO SCREEN -->
+<div id="intro-screen">
+    <div class="intro-ring"></div>
+    <div class="intro-logo">V</div>
+    <h1>VIPUL<span>.</span></h1>
+    <p>CREATIVE DEVELOPER</p>
+    <div class="intro-loader">
+        <div class="intro-loader-bar"></div>
+    </div>
+    <div class="intro-loading-text">INITIALIZING EXPERIENCE...</div>
+</div>
+
+
+  <div class="cursor-glow"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">VIPUL<span>.</span></a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tag">WELCOME TO MY DIGITAL WORLD</p>
+
+      <h1>Creating the<br>
+        <span>Future</span> with Code.
+      </h1>
+
+      <p class="hero-description">
+        Developer in progress. Exploring technology, AI
+        and building creative digital experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="gold-btn">EXPLORE MY WORK ↗</a>
+        <a href="#contact" class="outline-btn">CONTACT ME</a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <strong>01</strong>
+          <span>CREATIVE MIND</span>
+        </div>
+        <div>
+          <strong>02</strong>
+          <span>CODE & DESIGN</span>
+        </div>
+        <div>
+          <strong>03</strong>
+          <span>FUTURE AI</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-orb">
+      <div class="orb-core">V</div>
+      <div class="orb-ring ring-one"></div>
+      <div class="orb-ring ring-two"></div>
+    </div>
+
+    <div class="scroll-hint">SCROLL TO EXPLORE ↓</div>
+  </section>
+
+  <!-- BOOK -->
+  <section class="book-stage">
+
+    <div class="book">
+
+      <!-- BOOK COVER -->
+      <div class="book-cover" id="bookCover">
+        <div class="cover-design">
+          <div class="cover-emblem">V</div>
+          <div class="cover-line"></div>
+          <h2>VIPUL'S<br>PORTFOLIO</h2>
+          <p>THE CREATIVE JOURNEY</p>
+          <div class="cover-bottom">EST. 2026</div>
+        </div>
+      </div>
+
+      <!-- ABOUT PAGE -->
+      <article class="page page-about" id="about">
+        <span class="page-number">01 / ABOUT</span>
+
+        <div class="page-content profile-layout">
+
+          <div class="portrait-3d" id="portrait3d">
+            <div class="portrait-frame">
+              <img src="./vipul photo.jpeg" alt="Vipul's portrait">
+            </div>
+            <div class="portrait-shadow"></div>
+          </div>
+
+          <div class="profile-info">
+            <p class="tag">THE PERSON BEHIND THE CODE</p>
+
+            <h2>Hi, I'm <span>Vipul</span></h2>
+            <h3>Developer & AI Enthusiast</h3>
+
+            <p>
+              Exploring technology, building digital experiences
+              and turning creative ideas into reality.
+              Currently learning web development and Python,
+              with a growing interest in Artificial Intelligence.
+            </p>
+
+            <a href="#projects" class="gold-btn">EXPLORE MY WORK ↗</a>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- SKILLS PAGE -->
+      <article class="page page-skills" id="skills">
+        <span class="page-number">02 / SKILLS</span>
+
+        <div class="page-content">
+          <p class="tag">MY TECHNOLOGY STACK</p>
+          <h2>Skills & <span>Learning</span></h2>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span>01</span>
+              <h3>HTML</h3>
+              <p>Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+              <span>02</span>
+              <h3>CSS</h3>
+              <p>Design & Styling</p>
+            </div>
+
+            <div class="skill-card">
+              <span>03</span>
+              <h3>JavaScript</h3>
+              <p>Interactive Web</p>
+            </div>
+
+            <div class="skill-card">
+              <span>04</span>
+              <h3>Python</h3>
+              <p>Currently Learning</p>
+            </div>
+
+            <div class="skill-card">
+              <span>05</span>
+              <h3>Node.js</h3>
+              <p>Backend Exploration</p>
+            </div>
+
+            <div class="skill-card">
+              <span>06</span>
+              <h3>AI / ML</h3>
+              <p>Future Learning Goal</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECTS PAGE -->
+      <article class="page page-projects" id="projects">
+        <span class="page-number">03 / PROJECTS</span>
+
+        <div class="page-content project-content">
+          <p class="tag">SELECTED DIGITAL EXPERIENCES</p>
+          <h2>My <span>Projects</span></h2>
+
+          <div class="project-3d" id="project3d">
+            <div class="project-glow"></div>
+
+            <div class="project-inner">
+              <div class="project-top">
+                <span class="project-label">FEATURED PROJECT</span>
+                <span class="project-star">✦</span>
+              </div>
+
+              <div class="project-visual">
+                <div class="neuro-logo">N<span>.</span></div>
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+              </div>
+
+              <h3>NEUROVERSE AI</h3>
+
+              <p>
+                A futuristic AI chat experience with an elegant interface,
+                intelligent conversations and immersive design.
+              </p>
+
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+              </div>
+
+              <a href="https://github.com/vipulrajput20"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="project-button">
+                EXPLORE PROJECT ↗
+              </a>
+            </div>
+          </div>
+
+          <a class="text-link"
+             href="https://github.com/vipulrajput20"
+             target="_blank"
+             rel="noopener noreferrer">
+            VIEW ALL PROJECTS ON GITHUB ↗
+          </a>
+        </div>
+      </article>
+
+      <!-- CONTACT PAGE -->
+      <article class="page page-contact" id="contact">
+        <span class="page-number">04 / CONTACT</span>
+
+        <div class="page-content contact-content">
+          <p class="tag">LET'S CONNECT</p>
+
+          <h2>Let's Build<br>
+            Something <span>Great.</span>
+          </h2>
+
+          <p>
+            Have an idea, project or opportunity?
+            Let's connect and create something meaningful.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:vt175800@gmail.com">EMAIL ↗</a>
+
+            <a href="https://github.com/vipulrajput20"
+               target="_blank"
+               rel="noopener noreferrer">GITHUB ↗</a>
+
+            <a href="https://linkedin.com/in/vipul-mewada-5817bb431"
+               target="_blank"
+               rel="noopener noreferrer">LINKEDIN ↗</a>
+
+<!-- CONTACT FORM -->
+<form id="contactForm" class="contact-form">
+
+    <input
+        type="text"
+        id="contactName"
+        placeholder="Your Name"
+        required
+    >
+
+    <input
+        type="email"
+        id="contactEmail"
+        placeholder="Your Email"
+        required
+    >
+
+    <textarea
+        id="contactMessage"
+        placeholder="Write your message..."
+        rows="4"
+        required
+    ></textarea>
+
+    <button type="submit" class="contact-submit">
+        SEND MESSAGE ↗
+    </button>
+
+</form>
+
+<p id="formStatus"></p>
+
+          </div>
+
+          <div class="contact-signature">VIPUL<span>.</span></div>
+        </div>
+      </article>
+
+<!-- THE NEXT CHAPTER PAGE -->
+
+<article class="page page-next" id="next">
+
+  <span class="page-number">05 / THE FUTURE</span>
+
+  <div class="page-content next-content">
+
+    <p class="tag">THE JOURNEY CONTINUES</p>
+
+    <div class="future-portal" id="futurePortal">
+      <div class="portal-ring portal-ring-1"></div>
+      <div class="portal-ring portal-ring-2"></div>
+      <div class="portal-ring portal-ring-3"></div>
+
+      <div class="portal-core">
+        <span>V</span>
+      </div>
+    </div>
+
+    <h2>THE NEXT<br>
+      <span>CHAPTER.</span>
+    </h2>
+
+    <p class="next-description">
+      The journey has just begun.
+      The future is something I build.
+    </p>
+
+    <div class="future-timeline">
+      <div class="timeline-item">
+        <span>01</span>
+        <p>2026</p>
+        <small>WEB DEVELOPMENT</small>
+      </div>
+
+      <div class="timeline-line"></div>
+
+      <div class="timeline-item">
+        <span>02</span>
+        <p>AI / ML</p>
+        <small>INTELLIGENCE</small>
+      </div>
+
+      <div class="timeline-line"></div>
+
+      <div class="timeline-item">
+        <span>03</span>
+        <p>THE FUTURE</p>
+        <small>BUILDING WHAT'S NEXT</small>
+      </div>
+    </div>
+
+    <a href="mailto:vt175800@gmail.com" class="next-button">
+      LET'S BUILD SOMETHING ↗
+    </a>
+
+    <div class="next-signature">
+      VIPUL<span>.</span>
+    </div>
+
+    <p class="next-footer">
+      DESIGNED TO EVOLVE · EST. 2026
+    </p>
+
+  </div>
+</article>
+
+    </div>
+
+    </div>
+
+    <!-- FLOATING AI HOLOGRAM -->
+    <div class="ai-hologram" id="aiHologram">
+        <div class="ai-orbit orbit-one"></div>
+        <div class="ai-orbit orbit-two"></div>
+        <div class="ai-orbit orbit-three"></div>
+
+        <div class="ai-core">
+            <div class="ai-brain">✦</div>
+            <div class="ai-core-ring"></div>
+        </div>
+
+        <div class="ai-holo-label">
+            <span>AI CORE</span>
+            <small>NEURAL SYSTEM ONLINE</small>
+        </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 VIPUL'S PORTFOLIO</p>
+    <p>DESIGNED WITH <span>✦</span> & CODE</p>
+  </footer>
+
+  <div class="progress-track">
+    <div class="progress"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
